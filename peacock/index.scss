@@ -1,34 +1,19 @@
 // Variables & Functions
-@import 'variables';
+@import './functions';
+@import './variables';
 
 // Base & Layout
-@import 'base';
+@import './base';
+@import './breakpoints';
+@import './grid';
 
 // Colors
-@import 'colors';
+@import './colors';
 
 // Components (Button, Card, Navbar, etc)
 @import './components/card';
 @import './components/button';
+@import './components/navbar';
 
 // Utilities (margin, padding, opacity, etc)
-
-// .error {
-//     color: $error;
-//     border-color: $error;
-//     border-style: solid;
-//     margin: $base-margin;
-//     padding: $base-padding;
-//     border-radius: $base-border-radius;
-//     border-width: $base-border-thickness;
-// }
-
-// .notification {
-//     color: $secondary;
-//     border-color: $secondary;
-//     border-style: solid;
-//     margin: $base-margin;
-//     padding: $base-padding;
-//     border-radius: $base-border-radius;
-//     border-width: $base-border-thickness;
-// }
+@import './_utilities';
